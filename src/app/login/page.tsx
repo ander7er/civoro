@@ -13,7 +13,7 @@ export default function Login() {
                 </div>
             </div>
             <div className="flex flex-col items-center text-center justify-center">
-                <p className="text-xs text-muted-foreground">By continuing, you agree to Civoro's <span className="hover:underline hover:cursor-pointer">Terms of Service</span> and <span className="hover:underline hover:cursor-pointer">Privacy Policy</span>.</p>
+                <p className="text-xs text-muted-foreground">By continuing, you agree to Civoro&apos;s <span className="hover:underline hover:cursor-pointer">Terms of Service</span> and <span className="hover:underline hover:cursor-pointer">Privacy Policy</span>.</p>
             </div>
         </div>
     )
