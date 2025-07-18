@@ -1,9 +1,7 @@
-import { auth } from "@/auth";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 
-export default async function Home() {
+export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen gap-y-4">
       <Link href="/login">
