@@ -1,9 +1,12 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="flex flex-col items-center justify-center h-screen gap-y-4">
+      <Link href="/login">
+        <Button>Login</Button>
+      </Link>
     </div>
   )
 }
